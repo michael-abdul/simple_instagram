@@ -20,6 +20,7 @@ class HomeScreen extends StatelessWidget {
             },
             child: Text('Manage Users'),
           ),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {
               Navigator.push(
